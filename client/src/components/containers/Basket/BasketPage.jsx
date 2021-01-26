@@ -5,12 +5,12 @@ import { useSelector, useDispatch } from 'react-redux';
 import { action } from '../../redux/actions/action';
 import PropTypes from 'prop-types';
 // import Media from '../../media'; 
-import './container4.scss';
+import './BasketPage.scss';
 import axios from 'axios';
 import 'react-scroll';
 
 
-function Container4() {
+function BasketPage() {
 
     const dispatch = useDispatch();
 
@@ -24,17 +24,13 @@ function Container4() {
  
     return (
         <>
-            <section className='Container4'>
+            <section className='BasketPage'>
 
             </section>
         </>
     )
 }
 
-Container4.propTypes ={
-    //state: PropTypes.array,
 
-}
-
-export default Container4 = memo(Container4);
+export default BasketPage = memo(BasketPage);
         

@@ -5,12 +5,12 @@ import { useSelector, useDispatch } from 'react-redux';
 import { action } from '../../redux/actions/action';
 import PropTypes from 'prop-types';
 // import Media from '../../media'; 
-import './container3.scss';
+import './HomePage.scss';
 import axios from 'axios';
 import 'react-scroll';
 
 
-function Container3() {
+function HomePage() {
 
     const dispatch = useDispatch();
 
@@ -24,17 +24,13 @@ function Container3() {
  
     return (
         <>
-            <section className='Container3'>
-
+            <section className='HomePage'>
+               
             </section>
         </>
     )
 }
 
-Container3.propTypes ={
-    //state: PropTypes.array,
 
-}
-
-export default Container3 = memo(Container3);
+export default HomePage = memo(HomePage);
         

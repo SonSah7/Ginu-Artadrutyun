@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, lazy, Suspense } from 'react';
 import { Route, Switch, NavLink, Link } from 'react-router-dom';
-import { action } from '../redux/actions/action';
 import { useDispatch, useSelector } from 'react-redux';
-
+import HomePage from '../containers/Home/HomePage';
 function Navigation() {
 
     const dispatch = useDispatch()
@@ -11,7 +10,22 @@ function Navigation() {
 
     return (
             <>
-                {/* 'nav>ul>li*?>NavLink' */}
+                <nav>
+                    <ul>
+                        <li>
+                            <NavLink to='/'>Home</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to='about'>About</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to='contact'>Contact</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to='basket'>Basket</NavLink>
+                        </li>
+                    </ul>
+                </nav>
             </>
     )
 }    
