@@ -1,1 +1,0 @@
-export type actionTypes = 'ACTION' | 'ACTION2' | 'LOAD'
