@@ -25,7 +25,7 @@ function AboutPage() {
     return (
         <>
             <section className='AboutPage'>
-
+                Hello you are in About
             </section>
         </>
     )

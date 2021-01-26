@@ -25,7 +25,7 @@ function ContactPage() {
     return (
         <>
             <section className='ContactPage'>
-
+                Hello you are in Contact
             </section>
         </>
     )

@@ -2,6 +2,7 @@ import React, { useState, useEffect, lazy, Suspense } from 'react';
 import { Route, Switch, NavLink, Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import HomePage from '../containers/Home/HomePage';
+import './navigation.scss'
 function Navigation() {
 
     const dispatch = useDispatch()
@@ -10,7 +11,7 @@ function Navigation() {
 
     return (
             <>
-                <nav>
+                <nav className='navigation'>
                     <ul>
                         <li>
                             <NavLink to='/'>Home</NavLink>

@@ -25,7 +25,7 @@ function HomePage() {
     return (
         <>
             <section className='HomePage'>
-               
+               Hello you are in Home 
             </section>
         </>
     )

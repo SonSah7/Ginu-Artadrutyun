@@ -25,7 +25,7 @@ function BasketPage() {
     return (
         <>
             <section className='BasketPage'>
-
+                Hello you are in Basket 
             </section>
         </>
     )
