@@ -1,6 +1,6 @@
+require('dotenv').config();
 const express = require("express");
 const app = express();
-require('dotenv').config();
 const port = process.env.PORT;
 const morgan = require("morgan");
 const cors = require('cors');
@@ -16,4 +16,4 @@ app.use(express.urlencoded({
 
 
 
-app.listen(port, () => console.log(`server is runnig on port ${port}`));
+app.listen(port, () => console.log(`server is runnig on  http://localhost:${port}`));
